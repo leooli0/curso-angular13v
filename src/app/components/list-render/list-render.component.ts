@@ -29,7 +29,6 @@ export class ListRenderComponent implements OnInit {
   }
 
   showAge(animal: Animal) {
-    console.log('click')
     this.animalDetails = `O pet ${animal.name} tem ${animal.age} anos!`
   }
 
