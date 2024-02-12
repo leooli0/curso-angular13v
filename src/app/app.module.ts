@@ -29,12 +29,13 @@ import { TwoWayBindingComponent } from './components/two-way-binding/two-way-bin
     PipesComponent,
     TwoWayBindingComponent
   ],
+
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
-  ],
+    AppRoutingModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+
+export class AppModule {}
